@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Schedule</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="post" action="saveSchedule.jsp">
+        <p>        
+            <label for="clientName">Name:</label>
+            <input type="text" name="clientNameInput" id="clientNameInput" maxlength="35">
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" name="dateInput" id="dateInput">
+        </p>
+
+        <p>
+            <label for="time">Time:</label>
+            <input type="time" name="timeInput" id="timeInput">
+        </p>
+
+
+        <p>        
+            <label for="clientName">Price:</label>
+            <input type="number" name="priceInput" id="priceInput">
+        </p>
+
+        <p>
+            <input type="submit" name="saveBtn" id="saveBtn" value="Save">
+        </p>
+    </form>
+</body>
+</html>

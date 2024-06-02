@@ -1,0 +1,112 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(250, 235, 215, 0.7);
+    padding: 10px;
+}
+
+nav {
+    width: 50%;
+    background-color: rgb(250, 228, 200);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: large;
+    color:  black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 50%;
+    height: 500px;
+    background-color: rgba(250, 235, 215, 0.7);
+    padding: 10px;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    border: 0;
+    width: 100%;
+    height: 500px;
+}
+
+form {
+    width: 50%;
+    padding: 10px;
+}
+
+form p {
+    padding: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+}
+
+form#del input {
+    width: 150px;
+    padding: 8px;
+    margin: 0 2px;
+} 
+
+form#del input#deleteBtn {
+    width: 70px;
+    padding: 8px;
+    margin: 0 2px;
+}
+
+table {
+    width: 100%;
+    border: solid black 1px;
+    background-color: rgb(250, 228, 200);
+    padding: 5px;
+}
+
+table tr th {
+        background-color: rgb(241, 216, 183);
+        padding: 5px 10px;
+}
+
+table tr td {
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+    padding: 5px;
+}
+
+table tr td#alterA a {
+    color:  blue;
+    text-decoration: none;
+}
+
+table tr td#deleteA a {
+    color:  red;
+    text-decoration: none;
+}
+
+table tr td#alterA a:hover {
+    border: solid blue 1px;
+}
+
+table tr td#deleteA a:hover {
+    border: solid red 1px;
+}
+
+footer {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(250, 235, 215, 0.7);
+    padding: 10px;
+}
