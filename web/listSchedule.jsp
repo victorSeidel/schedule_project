@@ -41,7 +41,7 @@
                         <td><%= rs.getString("scheduleTime")%></td>
                         <td><%= rs.getString("massagePrice")%></td>
                         <td id="alterA">
-                            <a href="alterSchedule.jsp?scheduleId=<%=rs.getInt("scheduleId")%>">Alter</a>
+                            <a href="">Alter</a>
                         </td>
                         <td id="deleteA">
                             <a href="deleteScheduleAction.jsp?scheduleId=<%=rs.getInt("scheduleId")%>">Delete</a>
